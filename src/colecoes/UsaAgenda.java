@@ -17,6 +17,9 @@ public class UsaAgenda {
 
     myAgenda.inserir(dados);
 
-    System.out.println(myAgenda.buscar("Arthurzin"));
+    System.out.println(myAgenda.buscar("Arthurzin").getApelido());
+    System.out.println(myAgenda.buscar("Arthurzin").getEmail());
+    System.out.println(myAgenda.buscar("Arthurzin").getEndereco());
+    System.out.println(myAgenda.buscar("Arthurzin").getNumero());
   }
 }
